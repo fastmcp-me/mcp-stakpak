@@ -13,7 +13,7 @@ An MCP server that connects to Stakpak API.
  "mcpServers": {
   "stakpak": {
    "command": "npx",
-   "args": ["@stakpak/mcp"],
+   "args": ["@stakpak/mcp", "--output=resource"],
    "env": {
     "STAKPAK_API_KEY": "<your-stakpak-api-key>"
    }
