@@ -52,7 +52,10 @@ npx @stakpak/mcp STAKPAK_API_KEY=<your-stakpak-api-key>
  "mcpServers": {
   "stakpak": {
    "command": "npx",
-   "args": ["@stakpak/mcp STAKPAK_API_KEY=<YOUR_API_KEY>"]
+   "args": ["@stakpak/mcp"],
+   "env": {
+    "STAKPAK_API_KEY": "YOUR_API_KEY"
+   }
   }
  }
 }
