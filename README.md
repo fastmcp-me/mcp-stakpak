@@ -10,15 +10,15 @@ An MCP server that connects to Stakpak API.
 
 ```json
 {
- "mcpServers": {
-  "stakpak": {
-   "command": "npx",
-   "args": ["@stakpak/mcp", "--output=resource"],
-   "env": {
-    "STAKPAK_API_KEY": "<your-stakpak-api-key>"
-   }
+  "mcpServers": {
+    "stakpak": {
+      "command": "npx",
+      "args": ["@stakpak/mcp@latest", "--output=resource"],
+      "env": {
+        "STAKPAK_API_KEY": "<your-stakpak-api-key>"
+      }
+    }
   }
- }
 }
 ```
 
@@ -28,12 +28,12 @@ An MCP server that connects to Stakpak API.
 
 ```json
 {
- "mcpServers": {
-  "stakpak": {
-   "command": "npx",
-   "args": ["@stakpak/mcp STAKPAK_API_KEY=<YOUR_API_KEY>"],
+  "mcpServers": {
+    "stakpak": {
+      "command": "npx",
+      "args": ["@stakpak/mcp@latest STAKPAK_API_KEY=<YOUR_API_KEY>"]
+    }
   }
- }
 }
 ```
 
@@ -49,15 +49,15 @@ npx @stakpak/mcp STAKPAK_API_KEY=<your-stakpak-api-key>
 
 ```json
 {
- "mcpServers": {
-  "stakpak": {
-   "command": "npx",
-   "args": ["@stakpak/mcp"],
-   "env": {
-    "STAKPAK_API_KEY": "YOUR_API_KEY"
-   }
+  "mcpServers": {
+    "stakpak": {
+      "command": "npx",
+      "args": ["@stakpak/mcp@latest"],
+      "env": {
+        "STAKPAK_API_KEY": "YOUR_API_KEY"
+      }
+    }
   }
- }
 }
 ```
 
@@ -110,11 +110,13 @@ Add the MCP server to your `.cursor/mcp.json`:
 
 ```json
 {
- "mcpServers": {
-  "stakpak": {
-   "command": "node",
-   "args": ["<path-to-your-build-file> STAKPAK_API_KEY=<your-stakpak-api-key>"],
+  "mcpServers": {
+    "stakpak": {
+      "command": "node",
+      "args": [
+        "<path-to-your-build-file> STAKPAK_API_KEY=<your-stakpak-api-key>"
+      ]
+    }
   }
- }
 }
 ```
