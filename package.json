@@ -33,7 +33,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stakpak/studio/mcp"
+    "url": "https://github.com/stakpak/mcp"
   },
   "engines": {
     "node": ">=18"
