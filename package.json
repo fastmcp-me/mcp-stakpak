@@ -1,6 +1,6 @@
 {
   "name": "@stakpak/mcp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An MCP server that connects to Stakpak",
   "module": "index.ts",
   "bin": {
