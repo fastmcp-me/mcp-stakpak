@@ -1,6 +1,6 @@
 # Stakpak MCP Server
 
-An MCP server that connects to Stakpak API.
+A MCP server that connects to Stakpak API.
 
 ## Usage
 
