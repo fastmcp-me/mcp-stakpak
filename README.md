@@ -4,6 +4,16 @@ An MCP server that connects to Stakpak API.
 
 ## Usage
 
+### Stakpak API Key
+
+Before using the MCP server, you'll need to obtain a Stakpak API key. You can get your API key by:
+
+1. Visiting [Stakpak's website](https://stakpak.dev/)
+2. Logging into your account
+3. Going to your profile and navigating to the API keys section
+
+For detailed instructions, see the [Stakpak API Key Management documentation](https://stakpak.gitbook.io/docs/api/manage-api-keys).
+
 ### Claude Desktop
 
 - To install in a project, add the MCP server to your `claude_desktop_config.json`:
